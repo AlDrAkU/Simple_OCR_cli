@@ -1,2 +1,2 @@
--fitz
--pytesseract
+fitz
+pytesseract
