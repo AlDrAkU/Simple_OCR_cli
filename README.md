@@ -1,5 +1,6 @@
 # Simple_OCR_cli
 
+OCR application that can digitize text from images.
 
 Very simple to use, but it requires for tesseract to be installed.
 
