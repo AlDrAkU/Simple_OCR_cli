@@ -8,7 +8,7 @@ class Document:
 
     def __init__(self,file):
         self.file = file
-        self.file_name = file.split("/")[1].split(".")[0]
+        self.file_name = os.path.basename(file).split(".")[0]
         self.file_extension = file.split(".")[1]
         self.temp_page_list = []
         if not os.path.exists("temp/"):
